@@ -1,0 +1,41 @@
+* {
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.5s ease;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(30, 30, 30);
+	color: #ffffff;
+	color: rgba(255, 255, 255, .25);
+	min-height: 100%;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+.field {
+	position: relative;
+	border-bottom: 1px solid var(--borderColor);
+	margin-bottom: 30px;
+	--borderColor: #ffffff;
+}
+.field label {
+	display: block;
+	font-size: 12px;
+	text-align: left;
+}
+.field .color-field {
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	border: 0;
+	font-size: 18px;
+	color: #ffffff;
+	color: rgba(255, 255, 255, .25);
+	background-color: transparent;
+	text-align: left;
+	border-radius: 0;
+}
+.field .color-field#hex {
+	text-transform: uppercase;
+}

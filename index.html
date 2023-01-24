@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Convert</title>
+
+    <meta name="description" content="Convert colors between formats HEX, RGB, HSL and CMYK. Simple, beautiful and fast.">
+	  <meta name="theme-color" content="#ffffff">
+
+    <link href="//fonts.googleapis.com/css?family=Fredoka+One|Reenie+Beanie" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body> 
+
+		<div class="field">
+      <label for="hex">HEX</label>
+      <input type="text" value="" name="hex" id="hex" class="color-field" placeholder="#FF9200" maxlength="7" />
+    </div>
+		<div class="field">
+      <label for="rgb">RGB</label>
+      <input type="text" value="" name="rgb" id="rgb" class="color-field" placeholder="rgb(255,255,255)" maxlength="18" />
+    </div>
+		<div class="field">
+      <label for="rgb">HSL</label>
+      <input type="text" value="" name="hsl" id="hsl" class="color-field" placeholder="hsl(255, 100%, 50%)" />
+    </div>
+		<div class="field">
+      <label for="cmyk">CMYK</label>
+      <input type="text" value="" name="cmyk" id="cmyk" class="color-field" placeholder="cmyk(100%, 0%, 0%, 0%)" />
+    </div>
+
+    <p class="field">Utilize ALT + CLICK para gerar uma cor nova aleatória.</p>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="script.js"></script>
+
+  </body>
+</html>
